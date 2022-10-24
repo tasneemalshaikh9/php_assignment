@@ -1,0 +1,33 @@
+#book-photo img{
+width: 25%;
+}
+h4{
+     margin-top: 1rem;
+     margin-bottom: 1rem;
+     font-size: 2rem;
+}
+#book-meta{
+text-align: center;
+
+}
+/* #book-meta meta{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(119, 116, 116);
+} */
+button{
+  width: 6rem;
+  height: 3rem;
+ 
+}
+
+ #meta{
+   margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(156, 153, 153);
+    padding: .2rem;
+    width: 25%;
+    margin-left: 37.5%;
+    }
