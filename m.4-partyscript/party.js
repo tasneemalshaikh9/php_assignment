@@ -6,16 +6,16 @@ do {
     let age = prompt("What is your age?");
     // if younger than 18, print: you are too young
      if (age<18) {
-        confirm("you are too young");
+        alert("you are too young");
       } 
     
     // if older than 35, print: you are too old
     else if (age>35) {
-        confirm("you are too old");
+        alert("you are too old");
       }
     // if between 18 and 35, ask the user about his/her name and welcome the user to the party.
    else {
-    confirm(" welcome to the party");
+    alert(" welcome to the party");
       }
  
 } while (confirm("is there anyone else?"));
